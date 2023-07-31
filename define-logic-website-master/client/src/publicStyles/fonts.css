@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'EffraRg';
+    src: local('EffraRg'),
+        url('../components/fonts/Effra_Std_Rg.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'EffraLt';
+    src: local('EffraLt'),
+        url('../components/fonts/Effra_Std_Lt.ttf') format('ttf');
+}
+
+/* https://darshnarekha09.medium.com/adding-local-fonts-in-react-9d1466952042 */

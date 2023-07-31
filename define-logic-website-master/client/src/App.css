@@ -1,0 +1,65 @@
+App {
+  text-align: center;
+  font-family: EffraRg;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/*The main section of the pages
+color is font color*/
+body {
+  margin: 0;
+  font-family: EffraLt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--vulcan);
+  color: aliceblue;
+  border: 1mm ridge rgba(211, 220, 250, .6);
+}
+
+code {
+  font-family: EffraRg;
+}
+
+
+
+.App-Section{
+  font-family: EffraRg;
+}
+
+/*what does this do?*/
+.App-Header {  
+  background-color: #16294e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: EffraRg;
+  color: white;
+}
+
+.App-link {
+  color: #b3b4b4;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
