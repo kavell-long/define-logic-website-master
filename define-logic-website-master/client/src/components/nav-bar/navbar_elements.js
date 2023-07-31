@@ -100,7 +100,7 @@ max-width: 180px;
 height= auto;
 `;
 
-
+/*Black border */
 export const LeftContainer = styled.div`
   flex: 30%;
   display: flex;
@@ -109,6 +109,7 @@ export const LeftContainer = styled.div`
   border: 1mm ridge black;
 `;
 
+/*White border */
 export const RightContainer = styled.div`
   flex: 70%;
   display: flex;

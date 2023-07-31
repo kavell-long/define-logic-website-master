@@ -20,6 +20,26 @@ body {
   border: 1mm ridge rgba(211, 220, 250, .6);
 }
 
+section{
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 3rem 18rem;
+}
+
+.section{
+  transform: translateY(-100%) scale(0);
+  transition: all .4s ease-in-out;
+  background-color: var(--color-primary);
+}
+
+.sec1{
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
 code {
   font-family: EffraRg;
 }
@@ -44,7 +64,7 @@ code {
 }
 
 .App-link {
-  color: #b3b4b4;
+  color: #61dafb;
 }
 
 
